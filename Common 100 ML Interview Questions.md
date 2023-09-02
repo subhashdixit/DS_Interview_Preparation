@@ -348,8 +348,89 @@ In this scenario, if you prioritize simplicity and interpretability, you may pre
 This table format provides a clear comparison between decision trees and random forests in different scenarios, along with a numerical example to illustrate the concept.
 
 # 12. Why Logistic Regression is called regression?
+Ans:
+**Description/Explanation:**
+
+- **Logistic Regression** is a classification algorithm despite its name because it predicts a binary outcome (0 or 1).
+- The term "regression" in its name is a historical artifact, referring to the logistic function used in the algorithm.
+
+**Numerical Examples:**
+
+- In a binary classification problem where we predict whether an email is spam (1) or not spam (0), logistic regression might output a probability like 0.75, indicating a 75% chance that the email is spam. This is not a continuous numeric value but a probability used for classification.
+- Logistic regression uses the logistic (sigmoid) function, which maps any real-valued number to a value between 0 and 1, making it suitable for classification tasks despite the term "regression" in its name.
+- 
 # 13. What is Online Machine Learning? How is it different from Offline machine learning? List some of it’s applications?
+Ans:
+**Description/Explanation:**
+
+**Online Machine Learning:**
+Online machine learning, also known as incremental or streaming machine learning, is a machine learning paradigm that involves training models on continuously arriving data. Unlike traditional offline machine learning, where models are trained on fixed datasets, online learning adapts to new data as it becomes available. 
+
+**Offline Machine Learning:**
+Offline machine learning, or batch learning, involves training models on a fixed dataset and updating them periodically when new data is collected. Models are trained from scratch each time with the entire dataset.
+
+**Differences:**
+
+- **Data Handling:**
+  - *Online Machine Learning:* Handles data in a continuous stream, updating models on the fly.
+  - *Offline Machine Learning:* Trains models on a static dataset.
+
+- **Training Frequency:**
+  - *Online Machine Learning:* Continuous and incremental model updates.
+  - *Offline Machine Learning:* Periodic model retraining.
+
+- **Resource Usage:**
+  - *Online Machine Learning:* Requires fewer computational resources per update.
+  - *Offline Machine Learning:* Typically requires more computational resources during batch training.
+
+- **Applications:**
+  - *Online Machine Learning:* Suited for applications with dynamic data and real-time decision-making.
+  - *Offline Machine Learning:* Typically used for batch data analysis and modeling.
+
+**Numerical Examples:**
+
+**Online Machine Learning:**
+Imagine a recommendation system for an e-commerce website. It continuously collects user behavior data (clicks, purchases) and updates the recommendation model in real-time as users interact with the platform. This allows the system to adapt to changing user preferences immediately.
+
+**Offline Machine Learning:**
+Consider a healthcare system that periodically analyzes patient data to predict disease outcomes. The system collects data for a fixed period, such as a month, and then retrains predictive models using this static dataset. The models are not updated until the next batch of data is available.
+
+**Applications:**
+
+- **Online Machine Learning Applications:**
+  - Real-time recommendation systems (e.g., e-commerce).
+  - Fraud detection in financial transactions.
+  - Sentiment analysis of live social media data.
+  - Predictive maintenance in manufacturing.
+  - Adaptive game AI in gaming.
+
+- **Offline Machine Learning Applications:**
+  - Batch analysis of historical sales data for demand forecasting.
+  - Training deep learning models on large image datasets.
+  - Analyzing customer churn based on quarterly data.
+  - Annual financial reporting and forecasting.
+  - Conducting research studies on fixed datasets.
+
+Online machine learning is valuable in scenarios where data arrives continuously and immediate decision-making or adaptation is required. In contrast, offline machine learning is suitable for scenarios where data is collected in batches and periodic model updates are acceptable.
+
 # 14. What is No Free Lunch Theorem?
+Ans:
+**Description/Explanation:**
+
+- The No Free Lunch Theorem (NFLT) is a fundamental concept in machine learning.
+- It suggests that there is no one-size-fits-all algorithm or model that performs best for all types of problems.
+- NFLT implies that the performance of any machine learning algorithm is highly dependent on the specific characteristics and assumptions of the problem it's applied to.
+
+**Numerical Examples:**
+
+1. Suppose you have a classification problem where the data is linearly separable. In this case, a linear classifier like Logistic Regression may perform very well. However, if you apply a highly non-linear model like a deep neural network without proper data preprocessing, its performance may be inferior.
+
+2. Conversely, consider a problem where the data exhibits complex, non-linear relationships. Here, a decision tree or a random forest might outperform a simple linear model because they can capture intricate patterns in the data.
+
+3. NFLT also applies to optimization algorithms. For example, gradient descent may work well for convex cost functions but struggle to find the global minimum in non-convex functions, where other optimization techniques like genetic algorithms or simulated annealing might be more suitable.
+
+In essence, the No Free Lunch Theorem underscores the importance of selecting the right algorithm or model based on the characteristics and requirements of the specific problem you are trying to solve.
+
 # 15. Imagine you are woking with a laptop of 2GB RAM, how would you process a dataset of 10GB?
 # 16.  What are the main differences between Structured and Unstructured Data?
 # 17. What are the main points of difference between Bagging and Boosting?
