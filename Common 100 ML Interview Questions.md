@@ -25,43 +25,31 @@ This table provides a concise overview of the differences between parametric and
 
 # 2. Difference between convex and non-convex cost function; what does it mean when a cost function is non-convex?
 Ans:
-| Aspect                                        | Convex Cost Function                 | Non-Convex Cost Function                |
-|-----------------------------------------------|------------------------------------|----------------------------------------|
-| **Shape of Cost Function**                    | Forms a convex curve with a single  | Forms a non-convex curve with one      |
-|                                               | global minimum.                     | or more local minima.                  |
-| **Optimization Property**                     | Easier to optimize as gradient     | More challenging to optimize due to   |
-|                                               | descent methods converge to the    | presence of multiple local minima.    |
-|                                               | global minimum.                     |                                        |
-| **Global vs. Local Minima**                   | Has only one global minimum.       | May have multiple local minima.       |
-| **Optimal Solution**                         | The global minimum is the          | The global minimum may not be        |
-|                                               | optimal solution.                   | reachable using gradient descent.     |
-| **Examples**                                  | Linear Regression with Mean        | Neural networks with non-linear       |
-|                                               | Squared Error (MSE) cost function  | activation functions and complex      |
-|                                               |                                    | architectures.                        |
-| **Impact on Optimization**                   | Efficient optimization;            | Slower convergence, and risk of      |
-|                                               | convergence to global minimum.     | getting stuck in local minima.        |
-| **What It Means When Non-Convex**            | Cost function is convex when the   | A non-convex cost function implies    |
-| Cost Function Is Non-Convex                  | line connecting any two points in  | the presence of multiple potential    |
-|                                               | the curve lies above the curve.    | solutions, making optimization more   |
-|                                               |                                    | complex and sensitive to initialization.|
+Certainly, here's the information presented in a table format for the question about the difference between convex and non-convex cost functions:
 
-**Example**: 
+| Aspect                                | Convex Cost Function             | Non-Convex Cost Function            |
+|---------------------------------------|---------------------------------|------------------------------------|
+| **Description**                       | Forms a convex shape.            | Does not form a convex shape.      |
+| **Shape Example**                     | ![Convex Shape Example](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Convex_polygon_illustration.PNG/220px-Convex_polygon_illustration.PNG) | ![Non-Convex Shape Example](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Concave_polygon_illustration.PNG/220px-Concave_polygon_illustration.PNG) |
+| **Convex Cost Function Example**      | Mean Squared Error (MSE) in Linear Regression: J(θ) = (1/2m) Σ(yᵢ - hθ(xᵢ))², where θ represents model parameters. | None provided in the table due to complexity; typically, real-world cost functions exhibit non-convexity. |
+| **Non-Convex Cost Function Example**  | Neural Network Loss Function (e.g., Cross-Entropy Loss): J(θ) = -Σ(yᵢ * log(hθ(xᵢ)) + (1 - yᵢ) * log(1 - hθ(xᵢ))), where θ represents neural network weights. |                                    |
+| **Meaning of Non-Convexity**          | Multiple local minima; gradient-based optimization may converge to suboptimal solutions. | Multiple local minima and possibly saddle points; optimization can get stuck at suboptimal points. |
+| **Practical Implications**            | Optimization is relatively straightforward; global minimum is also the local minimum. | Optimization is challenging; finding the global minimum is not guaranteed. |
+| **Use in Machine Learning**            | Often used in linear regression. | Commonly found in neural networks, deep learning, and complex models. |
 
-*Convex Cost Function (MSE in Linear Regression)*
+**Example Use Case**:
 
-- Shape: Forms a convex curve with a single global minimum.
-- Optimization: Easier to optimize as gradient descent methods converge to the global minimum.
-- Examples: Linear Regression with Mean Squared Error (MSE) cost function.
-- Impact: Efficient optimization, with convergence to the global minimum.
+- **Convex Cost Function Example (Linear Regression):**
+  - Cost Function: Mean Squared Error (MSE)
+  - Formula: J(θ) = (1/2m) Σ(yᵢ - hθ(xᵢ))²
+  - Convex Shape: ![Convex Shape Example](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Convex_polygon_illustration.PNG/220px-Convex_polygon_illustration.PNG)
 
-*Non-Convex Cost Function (Neural Networks)*
+- **Non-Convex Cost Function Example (Neural Network):**
+  - Cost Function: Cross-Entropy Loss
+  - Formula: J(θ) = -Σ(yᵢ * log(hθ(xᵢ)) + (1 - yᵢ) * log(1 - hθ(xᵢ)))
+  - Non-Convex Shape: ![Non-Convex Shape Example](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Concave_polygon_illustration.PNG/220px-Concave_polygon_illustration.PNG)
 
-- Shape: Forms a non-convex curve with multiple local minima.
-- Optimization: More challenging to optimize due to the presence of multiple local minima.
-- Examples: Neural networks with non-linear activation functions and complex architectures.
-- Impact: Slower convergence, risk of getting stuck in local minima, and sensitivity to initialization.
-
-This table provides a clear comparison between convex and non-convex cost functions, covering aspects such as shape, optimization properties, global vs. local minima, examples, and their impact on optimization.
+In a convex cost function, the shape is convex, and optimization is relatively straightforward, whereas in a non-convex cost function, the shape is non-convex, leading to challenges in optimization due to multiple local minima and the possibility of getting stuck at suboptimal points.
 
 # 3. How do you decide when to go for deep learning for a project?
 Ans:
