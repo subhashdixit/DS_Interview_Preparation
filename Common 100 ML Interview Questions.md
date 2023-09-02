@@ -2,9 +2,7 @@
 Ans:
 | Aspect                                | Parametric Algorithms               | Non-Parametric Algorithms            |
 |---------------------------------------|------------------------------------|-------------------------------------|
-| **Description**                       | Make strong assumptions about data  | Make minimal assumptions about data |
-|                                       | distribution and have a fixed      | and do not have a fixed number of   |
-|                                       | number of parameters.               | parameters.                         |
+| **Description**                       | Make strong assumptions about data distribution and have a fixed number of parameters. | Make minimal assumptions about data and do not have a fixed number of parameters.|
 | **Examples**                           | Linear Regression,                 | k-Nearest Neighbors (KNN),          |
 |                                       | Logistic Regression                | Decision Trees                      |
 | **Advantages**                         | Computational efficiency when      | Flexibility to capture complex      |
