@@ -2,16 +2,11 @@
 Ans:
 | Aspect                                | Parametric Algorithms               | Non-Parametric Algorithms            |
 |---------------------------------------|------------------------------------|-------------------------------------|
-| **Description**                       | Make strong assumptions about data distribution and have a fixed number of parameters. | Make minimal assumptions about data and do not have a fixed number of parameters.|
-| **Examples**                           | Linear Regression,                 | k-Nearest Neighbors (KNN),          |
-|                                       | Logistic Regression                | Decision Trees                      |
-| **Advantages**                         | Computational efficiency when      | Flexibility to capture complex      |
-|                                       | assumptions are met.                | relationships; no strong assumptions|
-|                                       |                                    | about data distribution.            |
-| **Disadvantages**                     | May yield biased results when      | Prone to overfitting, especially    |
-|                                       | assumptions are not met; may not   | with small datasets; potentially   |
-|                                       | capture complex, non-linear        | fitting noise in data.              |
-| **Example Use Case**                  | Predicting income based on age     | Predicting income based on age     |
+| **Description**                       | Make strong assumptions about data distribution and have a fixed number of parameters. | Make minimal assumptions about data and do not have a fixed number of parameters .|
+| **Examples**                           | Linear Regression, Logistic Regression | k-Nearest Neighbors (KNN), Decision Trees |
+| **Advantages**                         | Computational efficiency when assumptions are met. | Flexibility to capture complex relationships; no strong assumptions about data distribution. |
+| **Disadvantages**                     | May yield biased results when assumptions are not met; may not capture complex, non-linear | Prone to overfitting, especially with small datasets; potentially fitting noise in data. |
+| **Example Use Case**                  | Predicting income based on age | Predicting income based on age |
 
 **Example**:
 
