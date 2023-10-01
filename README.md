@@ -53,3 +53,29 @@
 - https://www.analyticsvidhya.com/blog/2021/05/20-questions-to-test-your-skills-on-dbscan-clustering-algorithm/
 ##### 3. Hierarchical Clustering
 -https://www.mygreatlearning.com/blog/hierarchical-clustering/
+
+
+## **Statistics**
+### **Descriptive Statistics**
+- https://medium.com/@ArtisOne/data-science-interview-questions-statistics-4a731ec0be59
+### **Inferential Statistics**
+- https://towardsdatascience.com/50-statistics-interview-questions-and-answers-for-data-scientists-for-2021-24f886221271
+- https://medium.com/analytics-vidhya/can-remidesivir-prove-to-be-superior-to-placebo-a-statistical-understanding-f5ac50ec09a6
+  
+## **Deep Learning**
+### **ANN**
+- https://www.analyticsvidhya.com/blog/2021/09/introduction-to-artificial-neural-networks/
+### **CNN**
+- https://www.analyticsvidhya.com/blog/2021/07/convolution-neural-network-better-understanding/
+### **RNN**
+- https://www.analyticsvidhya.com/blog/2023/05/top-interview-questions-for-rnn/
+
+## **NLP**
+### **Text Preprocessing**
+### **Word Embedding**
+### **Model Building**
+
+## **Time Series Forecasting**
+### **ARIMA**
+
+
