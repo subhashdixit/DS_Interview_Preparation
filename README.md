@@ -78,4 +78,7 @@
 ## **Time Series Forecasting**
 ### **ARIMA**
 
+## **Hyperparameter Tuning**
+- https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/
+
 
