@@ -61,6 +61,8 @@
 ### **Inferential Statistics**
 - https://towardsdatascience.com/50-statistics-interview-questions-and-answers-for-data-scientists-for-2021-24f886221271
 - https://medium.com/analytics-vidhya/can-remidesivir-prove-to-be-superior-to-placebo-a-statistical-understanding-f5ac50ec09a6
+- https://towardsdatascience.com/40-statistics-interview-problems-and-answers-for-data-scientists-6971a02b7eee
+- https://medium.com/@thecodingcookie/hypothesis-testing-92b7270976de
   
 ## **Deep Learning**
 ### **ANN**
