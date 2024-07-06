@@ -65,6 +65,15 @@
 - https://medium.com/@thecodingcookie/hypothesis-testing-92b7270976de
   
 ## **Deep Learning**
+### **Misc**
+- https://medium.com/@aspershupadhyay/mastering-deep-learning-20-key-concepts-explained-ea405aa6603d
+- https://medium.com/@nerdjock/list/deep-learning-course-33ca17c0680e
+### **Optimizers**
+- https://musstafa0804.medium.com/optimizers-in-deep-learning-7bf81fed78a0
+### **Activation Function**
+- https://medium.com/analytics-vidhya/activation-functions-all-you-need-to-know-355a850d025e
+### **Forward and Backward Propagation**
+- https://medium.com/@nerdjock/deep-learning-course-lesson-5-forward-and-backward-propagation-ec8e4e6a8b92
 ### **ANN**
 - https://www.analyticsvidhya.com/blog/2021/09/introduction-to-artificial-neural-networks/
 ### **CNN**
@@ -73,14 +82,49 @@
 - https://www.analyticsvidhya.com/blog/2023/05/top-interview-questions-for-rnn/
 
 ## **NLP**
+### **Misc**
+- https://medium.com/@avikumart_/the-fundamentals-of-natural-language-processing-a-beginners-guide-5b2a0671c998
 ### **Text Preprocessing**
+- https://ayselaydin.medium.com/1-text-preprocessing-techniques-for-nlp-37544483c007
+- https://ayselaydin.medium.com/2-stemming-lemmatization-in-nlp-text-preprocessing-techniques-adfe4d84ceee
+- https://ayselaydin.medium.com/3-tokenization-in-nlp-the-art-of-breaking-down-text-data-5e1ba6786901
 ### **Word Embedding**
-### **Model Building**
+- https://ayselaydin.medium.com/4-bag-of-words-model-in-nlp-434cb38cdd1b
+- https://ayselaydin.medium.com/5-tf-idf-a-traditional-approach-to-feature-extraction-in-nlp-using-python-348873750e1e
+- https://medium.com/analytics-vidhya/introduction-to-word-embeddings-c2ba135dce2f
+- - https://medium.com/@b.terryjack/nlp-everything-about-word-embeddings-9ea21f51ccfe
+  - - https://medium.com/zero-to/word-embedding-understanding-the-fundamentals-746748000700
+### **Topic Modelling**
+- https://ayanmiayan2010.medium.com/understanding-topic-modelling-models-lda-nmf-lsi-and-their-implementation-adf1b2ea33c
+- https://medium.com/voice-tech-podcast/topic-modelling-using-nmf-2f510d962b6e
+### **Sentiment Analysis**
+- https://medium.com/analytics-vidhya/nlp-getting-started-with-sentiment-analysis-126fcd61cc4a
+### **NER** 
+-  https://medium.com/@mail4sameera/named-entity-recognition-ner-in-natural-language-processing-8c3a357edb7f
 
 ## **Time Series Forecasting**
-### **ARIMA**
-
+### **Stationarity**
+- https://medium.com/@ritusantra/stationarity-in-time-series-887eb42f62a9
+### **AR, MA, ARMA, ARIMA**
+- https://towardsdatascience.com/time-series-models-d9266f8ac7b0
+### **ARIMA , SARIMA and SARIMAX**
+  - https://towardsdatascience.com/time-series-forecasting-with-arima-sarima-and-sarimax-ee61099e78f6
+### **ACF and PACF**
+- https://medium.com/@vaibhav1403/acf-and-pacf-4c5dd10f9af2
+### **Decomposition in Time Series Data**
+- https://medium.com/analytics-vidhya/decomposition-in-time-series-data-b20764946d63
+### **Time Series Forecasting with Supervised Machine Learning**
+- https://towardsdatascience.com/time-series-forecasting-with-machine-learning-b3072a5b44ba
 ## **Hyperparameter Tuning**
 - https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/
+
+## **Evaluation Metrics and Misc Concepts**
+- https://medium.com/analytics-vidhya/complete-guide-to-machine-learning-evaluation-metrics-615c2864d916
+- https://medium.com/@itbodhi/bias-and-variance-trade-off-542b57ac7ff4
+- https://medium.com/@itbodhi/overfitting-and-underfitting-in-machine-learning-models-76cb60dbdaf6
+
+## **Probability**
+- https://towardsdatascience.com/14-probability-problems-for-acing-data-science-interviews-3735025a6425
+- https://www.geeksforgeeks.org/probability-questions/
 
 
