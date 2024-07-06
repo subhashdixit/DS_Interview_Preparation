@@ -52,7 +52,7 @@
 ##### 2. DBScan
 - https://www.analyticsvidhya.com/blog/2021/05/20-questions-to-test-your-skills-on-dbscan-clustering-algorithm/
 ##### 3. Hierarchical Clustering
--https://www.mygreatlearning.com/blog/hierarchical-clustering/
+- https://www.mygreatlearning.com/blog/hierarchical-clustering/
 
 
 ## **Statistics**
