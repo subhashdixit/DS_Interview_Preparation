@@ -9,9 +9,9 @@
 - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/linear_and_logistic_regression_interview_que.pdf
 - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/ml_interview_que.pdf
 ##### 2. L1 Regularization
-- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/ml_interview_que.pdf
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/l1_l2_regularization_part1.pdf
 ##### 3. L2 Regularization
- - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/ml_interview_que.pdf
+ - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/l1_l2_regularization_part1.pdf
 ##### 4. Decision Tree Regressor
 - https://medium.com/@thedatabeast/interview-questions-for-decision-tree-7bbdcbbf2ba3
 ##### 5. Random Forest Regressor
