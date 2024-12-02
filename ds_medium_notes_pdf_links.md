@@ -15,7 +15,7 @@
 ##### 4. Decision Tree Regressor
 - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/interview-questions-for-decision-tree-.pdf
 ##### 5. Random Forest Regressor
-- https://medium.com/@thedatabeast/interview-questions-for-random-forest-2bf784a6d0b1
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/interview-questions-for-random-forest-.pdf
 ##### 6. Gradient Boosting Regressor
 - https://www.analyticsvidhya.com/blog/2022/11/top-10-interview-questions-on-gradient-boosting/
 ##### 7. AdaBoost Regressor
