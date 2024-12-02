@@ -13,7 +13,7 @@
 ##### 3. L2 Regularization
  - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/l1_l2_regularization_part1.pdf
 ##### 4. Decision Tree Regressor
-- https://medium.com/@thedatabeast/interview-questions-for-decision-tree-7bbdcbbf2ba3
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/interview-questions-for-decision-tree-.pdf
 ##### 5. Random Forest Regressor
 - https://medium.com/@thedatabeast/interview-questions-for-random-forest-2bf784a6d0b1
 ##### 6. Gradient Boosting Regressor
