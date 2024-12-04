@@ -127,4 +127,6 @@
 - https://towardsdatascience.com/14-probability-problems-for-acing-data-science-interviews-3735025a6425
 - https://www.geeksforgeeks.org/probability-questions/
 
+## **SQL**
+- https://readmedium.com/en/https:/medium.com/@minimaldevops/become-sql-hero-functions-every-data-engineer-should-know-4502dbeb08d7
 
