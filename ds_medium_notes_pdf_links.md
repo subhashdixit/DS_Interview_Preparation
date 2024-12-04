@@ -17,17 +17,17 @@
 ##### 5. Random Forest Regressor
 - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/interview-questions-for-random-forest-.pdf
 ##### 6. Gradient Boosting Regressor
-- https://www.analyticsvidhya.com/blog/2022/11/top-10-interview-questions-on-gradient-boosting/
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/top-10-interview-questions-on-gradient-boosting.pdf
 ##### 7. AdaBoost Regressor
-- https://medium.com/@ktv0303/adaptive-boosting-or-adaboost-algorithm-4e8b9b372556
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/adaptive-boosting-or-adaboost-algorithm-4e8b9b372556.pdf
 ##### 8. XGBoost Regressor
-- https://medium.com/@thedatabeast/interview-questions-for-xg-boost-2d4c7b7f4bbf
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/interview-questions-for-xg-boost-2d4c7b7f4bbf.pdf
 ##### 9. KNN Regressor
-- https://medium.com/@iit2020kriti/frequent-interview-questions-on-k-nn-algorithm-fb64cbdab69
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/frequent-interview-questions-on-k-nn-algorithm-fb64cbdab69.pdf
 
 #### **Classification**
 ##### 1. Logistic Regression
- - https://medium.com/analytics-vidhya/20-interview-questions-on-linear-regression-and-logistic-regression-ef4d341d2805
+ - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/20-interview-questions-on-linear-regression-and-logistic-regression-ef4d341d2805.pdf
 ##### 2. Decision Tree Classifier
 - https://medium.com/@thedatabeast/interview-questions-for-decision-tree-7bbdcbbf2ba3
 ##### 3. Random Forest Classifier
