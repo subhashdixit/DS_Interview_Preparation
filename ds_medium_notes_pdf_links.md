@@ -29,7 +29,7 @@
 ##### 1. Logistic Regression
  - https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/20-interview-questions-on-linear-regression-and-logistic-regression-ef4d341d2805.pdf
 ##### 2. Decision Tree Classifier
-- https://medium.com/@thedatabeast/interview-questions-for-decision-tree-7bbdcbbf2ba3
+- https://github.com/subhashdixit/DS_Interview_Preparation/blob/main/medium_notes/interview-questions-for-decision-tree-7bbdcbbf2ba3.pdf
 ##### 3. Random Forest Classifier
 - https://medium.com/@thedatabeast/interview-questions-for-random-forest-2bf784a6d0b1
 ##### 4. Gradient Boosting Classifier
